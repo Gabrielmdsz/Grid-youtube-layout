@@ -1,0 +1,63 @@
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    max-width: 900px;
+    display: grid;
+    grid-template-areas: "secao-principal propaganda"
+                          "secao-principal lateral";  
+    
+    grid-template-columns: 1fr 270px;                      
+    grid-template-rows: 56px 1fr;
+    padding: 36px;
+    background-color: #F7F7F7;
+}
+
+
+.secao-principal{
+    grid-area: secao-principal;
+}
+
+.secao-principal h2{
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.secao-principal p{
+    font-size: 14px;
+    margin-top: 7px;
+}
+.secao-principal p:last-child{
+    font-size: 16px;
+    margin-top: 9px;
+}
+
+.propaganda{
+    grid-area: propaganda;
+}
+
+.lateral {
+    grid-area: lateral;
+    margin-top: 20px;
+}
+
+.lateral .video{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 4px;
+}
+.lateral .info h3{
+    font-size: 14px;
+}
+.lateral .info p{
+    font-size: 11px;
+    margin-top: 7px;
+}
+
+
+
+
+
+
+
